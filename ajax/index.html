@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ajax e js</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	</head>
+	<body>
+	    <nav class="navbar navbar-default navbar-static-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	        	<h3>Requisições ajax & js</h3>
+	        </div>
+	      </div>
+	    </nav>
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-md-4 center"></div>
+	    		<div class="col-md-4 center">
+	    			<a href="#" class="btn btn-primary" onclick="fazerRequisicao('url1.html', 'div_conteudo')">Página 1</a>
+	    			<a href="#" class="btn btn-primary" onclick="fazerRequisicao('url2.html', 'div_conteudo')">Página 2</a>
+	    			<a href="#" class="btn btn-primary" onclick="fazerRequisicao('url3.html', 'div_conteudo')">Página 3</a>
+	    		</div>
+	    		<div class="col-md-4 center"></div>
+	    	</div>
+	    	<br/>
+	    	<div class="row">
+		    	<div class="col-md-1"></div>
+		    	<div class="col-md-10" id="div_conteudo"></div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>	
+		<script src="requisicao.js"></script>
+	</body>
+</html>
